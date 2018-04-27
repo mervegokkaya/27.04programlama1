@@ -1,0 +1,436 @@
+
+###################### 3.soru ######################### ###
+
+ 
+
+def beHesapla (x, y, z, m, n):
+
+    (/ M / n) (x + y + z) = olmak x 100
+
+    print ("YBS-1 GRUBUNUN ETKİLEŞİM ORANI =",)
+
+    Eğer (> 0.20 olarak):
+
+        baskı ("YBS-1 GRUBUNUN ETKİLEŞİM ORANI BAŞARILIII !!")
+
+    Başka:
+
+        print ("YBS-1 GRUBUNUN ETKİLEŞİM ORANI BAŞARISIZ !!")
+
+   
+
+def ieHesapla (k, a, b, c, d):
+
+    yani = ((k + a + b) / c / d) * 100
+
+    baskı ("YBS-2 GRUBUNUN ETKİLEŞİM ORANI =", yani)
+
+    (yani> 0.20):
+
+        baskı ("YBS-2 GRUBUNUN ETKİLEŞİM ORANI BAŞARILIII !!")
+
+    Başka:
+
+        baskı ("YBS-2 GRUBUNUN ETKİLEŞİM ORANI BAŞARISIZ !!")
+
+ 
+
+def eeHesapla (e, f, g, h, l):
+
+    vi = ((e + f + g) / sa / l) * 100
+
+    print ("YBS-3 GRUBUNUN ETKİLEŞİM ORANI =", ee)
+
+    Eğer (ue> 0.20):
+
+        baskı ("YBS-3 GRUBUNUN ETKİLEŞİM ORANI BAŞARILIII !!")
+
+    Başka:
+
+        print ("YBS-3 GRUBUNUN ETKİLEŞİM ORANI BAŞARISIIZ !!")
+
+ 
+
+x = şamandıra (giriş ("YBS-1 grubunun sahipeni gösteri giriniz:"))
+
+y = float (giriş ("YBS-1 grubunun yorumlanması kodu giriniz:"))
+
+z = float (giriş ("YBS-1 grubunun paylaşım kodu giriniz:"))
+
+m = şamandıra (giriş ("YBS-1 grubunun içerik gösterebilen:"))
+
+n = şamandıra (giriş ("YBS-1 grubunun takipçi kodu giriniz:"))
+
+k = şamandıra (giriş ("YBS-2 grubunun beğeni saldırı giriniz:"))
+
+a = float (giriş ("YBS-2 grubunun yorumlanması kodu giriniz:"))
+
+b = float (giriş ("YBS-2 grubunun paylaşım kodu giriniz:"))
+
+c = yüzer (giriş ("YBS-2 grubunun içerik oluşur giriniz:"))
+
+d = float (giriş ("YBS-2 grubunun takipçi kodu giriniz:"))
+
+e = şamandıra (giriş ("YBS-3 grubunun beğeni saldırı giriniz:"))
+
+f = float (giriş ("YBS-3 grubunun yorumlanması kodu giriniz:"))
+
+g = float (giriş ("YBS-3 grubunun paylaşım kodu giriniz:"))
+
+h = yüzer (giriş ("YBS-3 grubunun içerik oluşur giriniz:"))
+
+l = şamandıra (giriş ("YBS-3 grubunun takipçi kodu giriniz:"))
+
+ 
+
+ 
+
+ 
+
+beHesapla (x, y, z, m, n)
+
+ieHesapla (k, a, b, c, d)
+
+ueHesapla (e, f, g, h, i)
+
+ 
+
+ 
+
+######################################### modülün çağırılması
+
+ithalat modülü3
+
+ 
+
+modul3.beHesapla (x, y, z, m, n)
+
+modul3.ieHesapla (k, a, b, c, d)
+
+modul3.ueHesapla (e, f, g, h, i)
+
+ 
+
+########################### 2.soru #################### #################
+
+def donenHesapla (kh, ach, bh, kül, tmh):
+
+    global donenVarlik
+
+    donenVarlik = kh + ACH + bh + kül + TMH
+
+    donenVarlik dönüş
+
+ 
+
+def duranHesapla (bih, th, dh):
+
+    global duranVarlik
+
+    duranVarlik = bh + dh inci
+
+    geri dönüşVarlik
+
+ 
+
+def kvykHesapla (bkh, sh):
+
+    küresel kvyk
+
+    kvyk = BKH + sh
+
+    dönüş krikosu
+
+ 
+
+def uvykHesapla (bkh, bsh):
+
+    küresel uvyk
+
+    uvyk = BKH + BSH
+
+    uvyk dönüşü
+
+ 
+
+def atoplam (donenVarlik, duranVarlik):
+
+    küresel atoplam
+
+    atoplam = donenVarlik + duranVarlik
+
+    baskı ("Aktif Toplamınız", atoplam)
+
+ 
+
+def ptoplam (kvyk, uvyk, tamam):
+
+    küresel ptopla
+
+    ptoplam = kvyk + uvyk + tamam
+
+    print ("Pasif Toplamınız:", ptoplam)
+
+ 
+
+def farkAL (atoplam, ptoplam):
+
+    fark = ptoplam-atoplam
+
+    Eğer (fark == 0):
+
+        print ("Kapanış bilançosu doğru hesaplanmıştır", fark)
+
+    Başka:
+
+        print ("Bilanço yanlış hesaplanmıştır")
+
+ 
+
+ 
+
+ 
+
+ 
+
+kh = int (giriş ("Kasa hesabınızı yazınız:"))
+
+ach = int (giriş ("Alınan çekler hesabınızı yazınız:"))
+
+bh = int (giriş ("Bankalar hesabıyorum yazınız:"))
+
+ash = int (giriş ("Alınan senetler hesabınız yazınız:"))
+
+tmh = int (giriş ("Ticari mallar hesabınızı yazınız:"))
+
+bih = int (giriş ("Binalar hesabınızı yazınız:"))
+
+th = int (giriş ("Taşıtlar hesabınızı yazınız:"))
+
+dh = int (giriş ("Demirbaş hesabınızı yazınız:"))
+
+bkh = int (giriş ("Banka kredileri hesabınız yazınız:"))
+
+sh = int (giriş ("Satıcılar hesabınızı yazınız:"))
+
+bkh = int (giriş ("Banka kredileri hesabınız yazınız:"))
+
+bsh = int (giriş ("Borç senetleri hesabınız yazınız:"))
+
+sh = int (giriş ("Sermaye hesabınızı yazınız:"))
+
+ok = int (giriş ("Öz sermayeeyi yazınız:"))
+
+ 
+
+ 
+
+donenHesapla (kh, ACH bh, kül, Tmh)
+
+duranHesapla (bh, inci, dh)
+
+kvykHesapla (BKH, sh)
+
+uvykHesapla (BKH BSh)
+
+atoplam (donenVarlik, duranVarlik)
+
+ptoplam (kvyk, uvyk ok)
+
+farkAL (atoplam, ptoplam)
+
+ 
+
+########################################### modülün çağırılması
+
+import modul2
+
+ 
+
+modul2.donenHesapla (kh, ACH bh, kül, Tmh)
+
+modul2.duranHesapla (bh, inci, dh)
+
+modul2.kvykHesapla (BKH, sh)
+
+modul2.uvykHesapla (BKH BSh)
+
+modul2.atoplam (donenVarlik, duranVarlik)
+
+modul2.ptoplam (kvyk, uvyk ok)
+
+modul2.farkAL (atoplam, ptoplam)
+
+ 
+
+ 
+
+################################## 1.soru ############# #####
+
+ 
+
+def itgHesapla (iyG, ifG, iusG):
+
+    global itopGelir
+
+    itopGelir = UGB + IFG + iusG
+
+    itopGelir döndür
+
+ 
+
+def itopgiderHesapla (icmG, ikG, idmG):
+
+    küresel itopGider
+
+    itopGider = icmG + IKs + idmG
+
+    itopGider dönüş
+
+ 
+
+def stopgelirHesapla (syG, ssG, setG, susG):
+
+    küresel duruş
+
+    stopgelir = SyG + ug + setG + susG
+
+    dönüş durağı
+
+ 
+
+def stopgiderHesapla (scmG, skG, sbmG):
+
+    küresel stopgider
+
+    stopgider = SCMG + SKG + sbmG
+
+    stopgider dönüş
+
+ 
+
+def iikHesapla (itopGelir, itopGider):
+
+    küresel iikari
+
+    iikari = itopGelir-itopGider
+
+    baskı ("İlk dönem karınız:", iikari)
+
+ 
+
+def sonikar (stopgelir, stopgider):
+
+    küresel sonikari
+
+    sonikari = stopgelir-stopgider
+
+    print ("Son dönem karınız:", sonikari)
+
+ 
+
+def farkAL (iikari, sonikari):
+
+    fark = sonikari-iikari
+
+    eğer (fark> 5000):
+
+        baskı ("İşletmede çok karlı. Kar =", fark)
+
+    elif (fark> = 1000) ve (fark <= 5000):
+
+        print ("İşletmenizin Karı Normal. Kar =", fark)
+
+    Başka:
+
+        print ("Üzgünüm İşletmeniz Yeterince Karda Değil")
+
+ 
+
+ 
+
+ 
+
+ 
+
+iyG = int (girdi ("İlk altı aylık faydaları sağlayan yazınız:"))
+
+ifG = int (input ("İlk altı aylık gelirlerinden kazanın yazınız:"))
+
+iusG = int (girdi ("İlk altı aylık ürün satış gelirlerinden kazanın yazınız:"))
+
+icmG = int (giriş ("İlk altı aylık çalışan maaşları giderinizi yazınız:"))
+
+ikG = int (giriş ("İlk altı aylık kira giderinizi yazınız:"))
+
+idmG = int (giriş ("İlk altı aylık donanım maliyetinizi yazınız:"))
+
+syG = int (giriş ("Son altı aylık faydaları sağladığınız yazdık:"))
+
+ssG = int (giriş ("Son altı aylık sponsorluk gelirinizi güvenin:"))
+
+setG = int (giriş ("Son altı aylık e-ticaret gelirini güveniniz:"))
+
+susG = int (girdi ("Son altı aylık ürün kalemi gelirinizi yazınız:"))
+
+scmG = int (giriş ("Son altı aylık çalışan maaşları giderinizi yazınız:"))
+
+skG = int (giriş ("Son altı aylık kira giderinizi yazınız:"))
+
+sbmG = int (giriş ("Son altı aylık bakım maliyetinizi yazınız:"))
+
+itgHesapla (UGB, IFG, iusG)
+
+itopgiderHesapla (icmG, IKs, idmG)
+
+stopgelirHesapla (SyG SSG, setG, susG)
+
+stopgiderHesapla (SCMG, SKG, sbmG)
+
+iikHesapla (itopGelir, itopGider)
+
+sonikar (stopgelir, stopgider)
+
+farkAL (iikari, sonikari)
+
+ 
+
+def adam_basiciroHesapla (x, y):
+
+    adambasiciro = (x * y) / 25
+
+    yazdır ("Adam Başı Cironuz =", adambasiciro)
+
+ 
+
+ 
+
+x = float (giriş ("Satış miktarıını giriniz:"))
+
+y = float (giriş ("Birim satış fiyatını giriniz:"))
+
+adam_basiciroHesapla (x, y)
+
+ 
+
+################################ modülün çağırılması
+
+ithalat modülü 1
+
+ 
+
+modul1.adam_basiciroHesapla (x, y)
+
+modul1.itgHesapla (UGB, IFG, iusG)
+
+modul1.itopgiderHesapla (icmG, IKs, idmG)
+
+modul1.stopgelirHesapla (SyG SSG, setG, susG)
+
+modul1.stopgiderHesapla (SCMG, SKG, sbmG)
+
+modul1.iikHesapla (itopGelir, itopGider)
+
+modul1.sonikar (stopgelir, stopgider)
+
+modul1.farkAL (iikari, sonikari)
